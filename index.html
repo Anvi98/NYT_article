@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form</title>
+</head>
+<body>
+    <section class="container">
+      <div class="right"></div>
+      <div class="left"></div>
+      <form action="index.html" method="POST">
+        <ul>
+          <li>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" required>
+          </li>
+          <li>
+            <label for="email">Email: </label>
+            <input type="email" name="email_us" id="email" required>
+          </li>
+          <li>
+            <label for="comment">Comment: </label>
+            <textarea name="comments" id="comment" placeholder="Type your comment here…" required></textarea>
+          </li>
+          <li>
+            <p>What is your overall opinion about this article?</p>
+            <input type="radio" name="level" id="lik"><span class="choice">Positive</span><br>
+            <input type="radio" name="level" id="lik"><span class="choice">Neutral</span><br>
+            <input type="radio" name="level" id="lik"><span class="choice">Negative</span><br>
+          </li>
+          <li>
+            <p class="suscribe">I want to subscribe to the newsletter</p>
+            <input type="checkbox" value="yes" class="check" >
+          </li>
+          
+        </ul>
+        <button type="submit">Send</button>
+        <p class="home">Home Page</p>
+      </form>
+    </section>
+</body>
+</html>
