@@ -7,7 +7,7 @@
 
 
 ## DEMO LINK 
-
+https://anvi98.github.io/NYT_article/
 ## Built With
 
 - Html5/CSS3
