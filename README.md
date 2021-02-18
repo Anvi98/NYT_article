@@ -2,7 +2,7 @@
 @Anvi_Alex
 # NYT_article
 
-# README 
+# Details 
 
 > Reproduction of a version Of the NEW York Times article.
 In this project, I used Flexbox, grid, float techniques to reproduce features of the website.
