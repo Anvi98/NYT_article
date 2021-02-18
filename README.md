@@ -8,6 +8,9 @@
 In this project, I used Flexbox, grid, float techniques to reproduce features of the website.
 All was about being able of performing the Positioning of elements in the flow of a webpage.
 
+## DEMO LINK 
+https://anvi98.github.io/NYT_article/
+
 ## Built With
 
 - Html5/CSS3
